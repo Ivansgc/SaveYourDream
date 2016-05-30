@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.ivan.yourdreamprueba3.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF5350">
+
+    <RelativeLayout
+        android:id="@+id/LayoutDefinicion"
+        style="@style/ReltveLyoutImagenFScreen"
+        >
+
+        <ImageView
+            android:contentDescription="@string/DescripcionImagenFScreen"
+            android:id="@+id/imgBackground"
+            android:layout_width="150sp"
+            android:paddingTop="35sp"
+            android:layout_height="150sp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ivan3"
+          />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/DefinicionText"
+        android:layout_below="@+id/LayoutDefinicion"
+        android:text="@string/TitleFS"
+        style="@style/TitleFScreenStyle"
+      />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/DefinicionText"
+        android:orientation="vertical"
+        style="@style/LinearLayoutDelMenuDeBotones"
+        >
+
+    <Button
+        android:id="@+id/BtnDreamFirstScreen1"
+        android:text="@string/BotonDreamsFScreen"
+        android:background="@drawable/custtom_button_menu1"
+        style="@style/BtnDreamAndNightmares"
+        />
+
+        <Button
+            android:id="@+id/BtnNightMaresFirstScreen2"
+            android:text="@string/BotonNightMaresFScreen"
+            android:background="@drawable/custtom_button_menu2"
+            style="@style/BtnDreamAndNightmares"
+             />
+
+        <Button
+            android:id="@+id/BtnDreamGuideFirstScreen3"
+            android:text="@string/BotonDreamsGuideFScreen"
+            android:background="@drawable/custtom_button_menu3"
+            style="@style/BtnDreamAndNightmares"
+            />
+
+        <Button
+            android:id="@+id/BtnOracleFirstScreen4"
+            android:text="@string/BotonOracleFScreen"
+            android:background="@drawable/custtom_button_menu4"
+            style="@style/BtnDreamAndNightmares"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

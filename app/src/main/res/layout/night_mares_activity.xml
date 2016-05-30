@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.ivan.yourdreamprueba3.SegundaPantalla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF5350">
+
+
+    <RelativeLayout
+        android:id="@+id/CabeceraDreamLyt"
+        style="@style/Cabeceras">
+
+        <TextView
+            android:id="@+id/TituloCabeceraNightmares"
+            android:text="@string/TitleNightmaresCabe"
+            android:textSize="45sp"
+            style="@style/TextoCabeceras" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/SubtitleCabeceraNightmares"
+        android:layout_below="@+id/CabeceraDreamLyt"
+        style="@style/LytDreamsAndNightMaresSubtitle">
+
+        <TextView
+            android:id="@+id/SubtituloCabeceraDream"
+            android:text="@string/SubTitleNightMaresScreen"
+            style="@style/SubtituloCabecerasEditText"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/LayoutImagen"
+        android:layout_below="@+id/SubtitleCabeceraNightmares"
+        style="@style/LytDreamsAndNightMaresImgs"
+        >
+
+        <ImageView
+            android:contentDescription="@string/DescripcionImagenFScreen"
+            android:id="@+id/imgNightMares"
+            android:src="@drawable/nigth"
+            style="@style/ImgDreamAndNightMares"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutEditTextNightmares"
+        android:layout_below="@+id/LayoutImagen"
+        style="@style/LytDreamsAndNightMares"
+        >
+
+        <EditText
+            android:id="@+id/edtxDreams"
+            style="@style/TextsDreamsAndNightMares"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/SaveNightmares"
+        android:background="@drawable/custtom_buttom"
+        android:layout_below="@+id/linearLayoutEditTextNightmares"
+        android:text="@string/TextoBtnNightmares"
+        style="@style/BtnDreamAndNightmares"
+        />
+
+
+</RelativeLayout>

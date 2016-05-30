@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D500F9</color>
+    <color name="colorPrimaryDark">#E040FB</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="light_teal">#880E4F</color>
+    <color name="pressed_purple_button">#D500F9</color>
+    <color name="focused_teal_button">#AB47BC</color>
+
+    <color name="light_tealmenu1">#F3E5F5</color>
+    <color name="pressed_purple_buttonmenu1">#D500F9</color>
+    <color name="focused_teal_buttonmenu1">#CE93D8</color>
+
+    <color name="light_tealmenu2">#E1BEE7</color>
+    <color name="pressed_purple_buttonmenu2">#D500F9</color>
+    <color name="focused_teal_buttonmenu2">#BA68C8</color>
+
+    <color name="light_tealmenu3">#CE93D8</color>
+    <color name="pressed_purple_buttonmenu3">#D500F9</color>
+    <color name="focused_teal_buttonmenu3">#AB47BC</color>
+
+    <color name="light_tealmenu4">#BA68C8</color>
+    <color name="pressed_purple_buttonmenu4">#D500F9</color>
+    <color name="focused_teal_buttonmenu4">#9C27B0</color>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF5350"
+    >
+
+    <RelativeLayout
+        android:id="@+id/LytCabeceraDreamGuide"
+        style="@style/Cabeceras"
+        >
+
+        <TextView
+            android:id="@+id/TituloCabeceraDreamGuide"
+            android:text="@string/TitleDreamGuideCabe"
+            android:textSize="52dp"
+            style="@style/TextoCabeceras"/>
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/SubtitleCabeceraDreamsGuide"
+        android:layout_below="@+id/LytCabeceraDreamGuide"
+        style="@style/LytDreamsAndNightMaresSubtitle">
+
+        <TextView
+            android:id="@+id/SubtituloCabeceraDreamGuide"
+            android:text="@string/SubTitleDreamsGuideScreen"
+            style="@style/SubtituloCabecerasEditText"/>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

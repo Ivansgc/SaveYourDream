@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.ivan.yourdreamprueba3.SegundaPantalla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF5350">
+
+    <RelativeLayout
+        android:id="@+id/CabeceraDreamLyt"
+        style="@style/Cabeceras">
+
+        <TextView
+            android:id="@+id/TituloCabeceraDream"
+            android:text="@string/TitleDreamCabe"
+            style="@style/TextoCabeceras" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/SubtitleCabeceraDreams"
+        android:layout_below="@+id/CabeceraDreamLyt"
+        style="@style/LytDreamsAndNightMaresSubtitle">
+
+        <TextView
+            android:id="@+id/SubtituloCabeceraDream"
+            android:text="@string/SubTitleDreamsScreen"
+            style="@style/SubtituloCabecerasEditText"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/LayoutImagen"
+        android:layout_below="@+id/SubtitleCabeceraDreams"
+        style="@style/LytDreamsAndNightMaresImgs"
+        >
+
+        <ImageView
+            android:contentDescription="@string/DescripcionImagenFScreen"
+            android:id="@+id/imgDream"
+            android:src="@drawable/cielo"
+            style="@style/ImgDreamAndNightMares"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/linearLayoutEditTextDream"
+        android:layout_below="@+id/LayoutImagen"
+        style="@style/LytDreamsAndNightMares"
+       >
+
+        <EditText
+            android:id="@+id/edtxDreams"
+            style="@style/TextsDreamsAndNightMares"/>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/SaveDreams"
+        android:layout_below="@+id/linearLayoutEditTextDream"
+        android:text="@string/TextoBtnDream"
+        android:background="@drawable/custtom_buttom"
+        style="@style/BtnDreamAndNightmares"
+         />
+
+</RelativeLayout>

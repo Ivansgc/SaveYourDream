@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Save Yours Dreams</string>
+    <string name="title_activity_segunda_pantalla">SegundaPantalla</string>
+    <string name="BotonDreamsFScreen">Dreams</string>
+    <string name="BotonNightMaresFScreen">NightMares</string>
+    <string name="BotonDreamsGuideFScreen">Dreams Guide</string>
+    <string name="BotonOracleFScreen">Oracle</string>
+    <string name="TitleFS">Save Yours Dreams</string>
+    <string name="DescripcionImagenFScreen">Imagen de Primera Pantalla</string>
+    <string name="TitleDreamCabe">DREAMS</string>
+    <string name="TitleDreamGuideCabe">DREAMS GUIDE</string>
+    <string name="TitleNightmaresCabe">NIGHTMARES</string>
+    <string name="CabeceraNightMares">NIGHTMARES</string>
+    <string name="TextoBtnDream">SAVE YOUR DREAM</string>
+    <string name="TextoBtnNightmares">SAVE YOUR NIGHTMARE</string>
+    <string name="TextoDeOracle">Ask me a question</string>
+    <string name="SubTitleDreamsScreen">Fast! write your dream</string>
+    <string name="SubTitleNightMaresScreen">Fast! write your nightmares</string>
+    <string name="SubTitleOracleScreen">Welcome to your personal oracle</string>
+    <string name="DescripcionImagenSScreen">Imagen de La pantalla sueños</string>
+    <string name="SubTitleDreamsGuideScreen">Welcome to your dreams guide</string>
+    <string name="TextoOracleAsk">Ask Me a cuestion:</string>
+    <string name="BtnAskOracle">Ask me</string>
+
+
+
+</resources>

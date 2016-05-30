@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EF5350"
+    >
+
+    <RelativeLayout
+        android:id="@+id/CabeceraOracle"
+        style="@style/Cabeceras"
+        >
+
+        <TextView
+            android:id="@+id/TituloCabeceraOracle"
+            android:text="Oracle"
+            style="@style/TextoCabeceras"/>
+
+
+        <RelativeLayout
+            android:id="@+id/SubtitleCabeceraOracle"
+            style="@style/LytDreamsAndNightMaresSubtitle"
+            android:layout_gravity="right|center_vertical"
+            android:layout_below="@+id/TituloCabeceraOracle"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:text="@string/SubTitleOracleScreen"
+                style="@style/SubtituloCabecerasEditText"/>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/AskTextoA"
+        android:layout_below="@+id/LayoutImagen"
+        style="@style/OracleLytTextAsk"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <TextView
+            android:id="@+id/TextOracle"
+            android:text="@string/TextoOracleAsk"
+            style="@style/TextOracleASk"/>
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_below="@+id/TextOracle"
+            style="@style/EditTextOracleASk"
+             />
+
+        <Button
+            android:id="@+id/button"
+            android:text="@string/BtnAskOracle"
+            android:layout_below="@+id/editText"
+            style="@style/BtnDreamAndNightmares"
+            android:background="@drawable/custtom_buttom"
+           />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:src="@drawable/oraculo2morado"
+        style="@style/ImgOracle"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/LayoutImagen"
+        android:layout_below="@+id/SubtitleCabeceraOracle"
+        style="@style/LytImagenOraculo"
+        android:layout_gravity="center">
+
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
