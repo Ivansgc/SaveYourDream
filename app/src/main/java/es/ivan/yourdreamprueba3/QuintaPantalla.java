@@ -1,9 +1,12 @@
 package es.ivan.yourdreamprueba3;
 
+import android.content.DialogInterface;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 /**
@@ -32,7 +35,18 @@ public class QuintaPantalla  extends AppCompatActivity {
         myTextView2.setTypeface(myTypeface1);
 
 
-
-
     }
+
+    public void onAlert(View view){
+        android.app.AlertDialog.Builder alertDialog = new android.app.AlertDialog.Builder(this);
+        alertDialog.setTitle("Información: ");
+        alertDialog.setMessage("Preguntame lo que quieras, puedo responder preguntas cuya contestación sea SI O NO.");
+        alertDialog.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        alertDialog.show();
+    }
+
 }
